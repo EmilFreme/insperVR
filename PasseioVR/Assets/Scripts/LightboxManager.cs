@@ -8,7 +8,7 @@ using VRTK;
 public class LightboxManager : MonoBehaviour
 {
     private int activeLighbox;
-    private readonly string[,] lightboxes = new string[2,6]{ { "Materials/Sala_RV", "", "", "" ,"", ""}, { "Materials/Corredor_RV", "Materials/Corredor_Redes", "Materials/Corredor_ArqComp", "Materials/Corredor_Meio", "Materials/Corredor_Agil2", "Materials/Corredor_Agil1" } }; 
+    private readonly string[,] lightboxes = new string[2,6]{ { "Materials/Sala_RV", "Materials/Sala_Redes", "Materials/Sala_ArqComp", "" ,"", "Materials/Sala_Agil" }, { "Materials/Corredor_RV", "Materials/Corredor_Redes", "Materials/Corredor_ArqComp", "Materials/Corredor_Meio", "Materials/Corredor_Agil2", "Materials/Corredor_Agil1" } }; 
 
 
     public GameObject LeftControllerPointer;
